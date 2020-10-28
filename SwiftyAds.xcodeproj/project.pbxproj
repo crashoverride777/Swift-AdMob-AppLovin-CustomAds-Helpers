@@ -3,70 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6AAD6A07240BEC77001F4A7D /* SwiftyAdsConsentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A03240BEC76001F4A7D /* SwiftyAdsConsentStatus.swift */; };
-		6AAD6A08240BEC77001F4A7D /* SwiftyAdsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A04240BEC76001F4A7D /* SwiftyAdsType.swift */; };
-		6AAD6A09240BEC77001F4A7D /* SwiftyAdsMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A05240BEC76001F4A7D /* SwiftyAdsMode.swift */; };
-		6AAD6A0A240BEC77001F4A7D /* SwiftyAdsConsentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A06240BEC76001F4A7D /* SwiftyAdsConsentStyle.swift */; };
-		6AAD6A12240BEC98001F4A7D /* SwiftyAdsRewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A0B240BEC98001F4A7D /* SwiftyAdsRewarded.swift */; };
-		6AAD6A13240BEC98001F4A7D /* SwiftyAdsRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A0C240BEC98001F4A7D /* SwiftyAdsRequestBuilder.swift */; };
-		6AAD6A14240BEC98001F4A7D /* SwiftyAdsConsentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A0D240BEC98001F4A7D /* SwiftyAdsConsentManager.swift */; };
-		6AAD6A15240BEC98001F4A7D /* SwiftyAdsIntervalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A0E240BEC98001F4A7D /* SwiftyAdsIntervalTracker.swift */; };
-		6AAD6A16240BEC98001F4A7D /* SwiftyAdsInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A0F240BEC98001F4A7D /* SwiftyAdsInterstitial.swift */; };
-		6AAD6A17240BEC98001F4A7D /* SwiftyAdsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A10240BEC98001F4A7D /* SwiftyAdsBanner.swift */; };
-		6AAD6A18240BEC98001F4A7D /* SwiftyAdsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD6A11240BEC98001F4A7D /* SwiftyAdsConfiguration.swift */; };
-		6AAD6A22240C1CBE001F4A7D /* SwiftyAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C1B128204C298500452094 /* SwiftyAds.framework */; };
-		6AE482F42294B7660063B22F /* SwiftyAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE482F22294B7660063B22F /* SwiftyAds.swift */; };
-		B4C1B12D204C298500452094 /* SwiftyAds.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C1B12B204C298500452094 /* SwiftyAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_35 /* SwiftyAdsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftyAdsBanner.swift */; };
+		OBJ_36 /* SwiftyAdsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* SwiftyAdsConfiguration.swift */; };
+		OBJ_37 /* SwiftyAdsConsentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SwiftyAdsConsentManager.swift */; };
+		OBJ_38 /* SwiftyAdsInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftyAdsInterstitial.swift */; };
+		OBJ_39 /* SwiftyAdsIntervalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftyAdsIntervalTracker.swift */; };
+		OBJ_40 /* SwiftyAdsRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SwiftyAdsRequestBuilder.swift */; };
+		OBJ_41 /* SwiftyAdsRewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* SwiftyAdsRewarded.swift */; };
+		OBJ_42 /* SwiftyAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SwiftyAds.swift */; };
+		OBJ_43 /* SwiftyAdsConsentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* SwiftyAdsConsentStatus.swift */; };
+		OBJ_44 /* SwiftyAdsConsentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SwiftyAdsConsentStyle.swift */; };
+		OBJ_45 /* SwiftyAdsMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SwiftyAdsMode.swift */; };
+		OBJ_46 /* SwiftyAdsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SwiftyAdsType.swift */; };
+		OBJ_53 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6AAD6A23240C1CBE001F4A7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B4C1B11F204C298500452094 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4C1B127204C298500452094;
-			remoteInfo = SwiftyAds;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		6A38EBA72401916500E645A0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6AAD6A03240BEC76001F4A7D /* SwiftyAdsConsentStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentStatus.swift; sourceTree = "<group>"; };
-		6AAD6A04240BEC76001F4A7D /* SwiftyAdsType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsType.swift; sourceTree = "<group>"; };
-		6AAD6A05240BEC76001F4A7D /* SwiftyAdsMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsMode.swift; sourceTree = "<group>"; };
-		6AAD6A06240BEC76001F4A7D /* SwiftyAdsConsentStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentStyle.swift; sourceTree = "<group>"; };
-		6AAD6A0B240BEC98001F4A7D /* SwiftyAdsRewarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsRewarded.swift; sourceTree = "<group>"; };
-		6AAD6A0C240BEC98001F4A7D /* SwiftyAdsRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsRequestBuilder.swift; sourceTree = "<group>"; };
-		6AAD6A0D240BEC98001F4A7D /* SwiftyAdsConsentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentManager.swift; sourceTree = "<group>"; };
-		6AAD6A0E240BEC98001F4A7D /* SwiftyAdsIntervalTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsIntervalTracker.swift; sourceTree = "<group>"; };
-		6AAD6A0F240BEC98001F4A7D /* SwiftyAdsInterstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsInterstitial.swift; sourceTree = "<group>"; };
-		6AAD6A10240BEC98001F4A7D /* SwiftyAdsBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsBanner.swift; sourceTree = "<group>"; };
-		6AAD6A11240BEC98001F4A7D /* SwiftyAdsConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConfiguration.swift; sourceTree = "<group>"; };
-		6AAD6A1D240C1CBE001F4A7D /* SwiftyAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AAD6A21240C1CBE001F4A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AAD6A2D240C1DF9001F4A7D /* UnitTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTests.xctestplan; sourceTree = "<group>"; };
-		6AE482F22294B7660063B22F /* SwiftyAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAds.swift; sourceTree = "<group>"; };
-		B4C1B128204C298500452094 /* SwiftyAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4C1B12B204C298500452094 /* SwiftyAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyAds.h; sourceTree = "<group>"; };
-		B4C1B12C204C298500452094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_10 /* SwiftyAdsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_11 /* SwiftyAdsConsentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentManager.swift; sourceTree = "<group>"; };
+		OBJ_12 /* SwiftyAdsInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsInterstitial.swift; sourceTree = "<group>"; };
+		OBJ_13 /* SwiftyAdsIntervalTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsIntervalTracker.swift; sourceTree = "<group>"; };
+		OBJ_14 /* SwiftyAdsRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsRequestBuilder.swift; sourceTree = "<group>"; };
+		OBJ_15 /* SwiftyAdsRewarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsRewarded.swift; sourceTree = "<group>"; };
+		OBJ_17 /* SwiftyAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAds.swift; sourceTree = "<group>"; };
+		OBJ_18 /* SwiftyAdsConsentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentStatus.swift; sourceTree = "<group>"; };
+		OBJ_19 /* SwiftyAdsConsentStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsConsentStyle.swift; sourceTree = "<group>"; };
+		OBJ_20 /* SwiftyAdsMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsMode.swift; sourceTree = "<group>"; };
+		OBJ_21 /* SwiftyAdsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsType.swift; sourceTree = "<group>"; };
+		OBJ_27 /* SwiftyAds.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftyAds.podspec; sourceTree = "<group>"; };
+		OBJ_28 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_29 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* SwiftyAdsBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyAdsBanner.swift; sourceTree = "<group>"; };
+		"SwiftyAds::SwiftyAds::Product" /* SwiftyAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6AAD6A1A240C1CBE001F4A7D /* Frameworks */ = {
+		OBJ_47 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AAD6A22240C1CBE001F4A7D /* SwiftyAds.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4C1B124204C298500452094 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,501 +53,317 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A4285F724005F560035487A /* Sources */ = {
+		OBJ_16 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				6A68DA6523FF69B50006F655 /* Public */,
-				6A68A75C23FF69840030374F /* Internal */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		6A68A75C23FF69840030374F /* Internal */ = {
-			isa = PBXGroup;
-			children = (
-				6AAD6A11240BEC98001F4A7D /* SwiftyAdsConfiguration.swift */,
-				6AAD6A0D240BEC98001F4A7D /* SwiftyAdsConsentManager.swift */,
-				6AAD6A0E240BEC98001F4A7D /* SwiftyAdsIntervalTracker.swift */,
-				6AAD6A0C240BEC98001F4A7D /* SwiftyAdsRequestBuilder.swift */,
-				6AAD6A10240BEC98001F4A7D /* SwiftyAdsBanner.swift */,
-				6AAD6A0F240BEC98001F4A7D /* SwiftyAdsInterstitial.swift */,
-				6AAD6A0B240BEC98001F4A7D /* SwiftyAdsRewarded.swift */,
-			);
-			path = Internal;
-			sourceTree = "<group>";
-		};
-		6A68DA6523FF69B50006F655 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				6AAD6A03240BEC76001F4A7D /* SwiftyAdsConsentStatus.swift */,
-				6AAD6A06240BEC76001F4A7D /* SwiftyAdsConsentStyle.swift */,
-				6AAD6A05240BEC76001F4A7D /* SwiftyAdsMode.swift */,
-				6AAD6A04240BEC76001F4A7D /* SwiftyAdsType.swift */,
-				6AE482F22294B7660063B22F /* SwiftyAds.swift */,
+				OBJ_17 /* SwiftyAds.swift */,
+				OBJ_18 /* SwiftyAdsConsentStatus.swift */,
+				OBJ_19 /* SwiftyAdsConsentStyle.swift */,
+				OBJ_20 /* SwiftyAdsMode.swift */,
+				OBJ_21 /* SwiftyAdsType.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
 		};
-		6AAD6A1E240C1CBE001F4A7D /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6AAD6A2C240C1DF9001F4A7D /* Test Plans */,
-				6AAD6A2E240C1E0F001F4A7D /* Public */,
-				6AAD6A28240C1CDD001F4A7D /* Internal */,
-				6AAD6A2F240C1E16001F4A7D /* Test Data */,
-				6AAD6A21240C1CBE001F4A7D /* Info.plist */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6AAD6A28240C1CDD001F4A7D /* Internal */ = {
+		OBJ_22 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Internal;
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
-		6AAD6A2C240C1DF9001F4A7D /* Test Plans */ = {
+		OBJ_23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AAD6A2D240C1DF9001F4A7D /* UnitTests.xctestplan */,
-			);
-			path = "Test Plans";
-			sourceTree = "<group>";
-		};
-		6AAD6A2E240C1E0F001F4A7D /* Public */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		6AAD6A2F240C1E16001F4A7D /* Test Data */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Test Data";
-			sourceTree = "<group>";
-		};
-		B4C1B11E204C298500452094 = {
-			isa = PBXGroup;
-			children = (
-				6A38EBA72401916500E645A0 /* README.md */,
-				6A4285F724005F560035487A /* Sources */,
-				B4C1B12A204C298500452094 /* SwiftyAds */,
-				6AAD6A1E240C1CBE001F4A7D /* Tests */,
-				B4C1B129204C298500452094 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B4C1B129204C298500452094 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B4C1B128204C298500452094 /* SwiftyAds.framework */,
-				6AAD6A1D240C1CBE001F4A7D /* SwiftyAdsTests.xctest */,
+				"SwiftyAds::SwiftyAds::Product" /* SwiftyAds.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B4C1B12A204C298500452094 /* SwiftyAds */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				B4C1B12B204C298500452094 /* SwiftyAds.h */,
-				B4C1B12C204C298500452094 /* Info.plist */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_22 /* Tests */,
+				OBJ_23 /* Products */,
+				OBJ_27 /* SwiftyAds.podspec */,
+				OBJ_28 /* LICENSE */,
+				OBJ_29 /* README.md */,
 			);
-			path = SwiftyAds;
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Internal */,
+				OBJ_16 /* Public */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* SwiftyAdsBanner.swift */,
+				OBJ_10 /* SwiftyAdsConfiguration.swift */,
+				OBJ_11 /* SwiftyAdsConsentManager.swift */,
+				OBJ_12 /* SwiftyAdsInterstitial.swift */,
+				OBJ_13 /* SwiftyAdsIntervalTracker.swift */,
+				OBJ_14 /* SwiftyAdsRequestBuilder.swift */,
+				OBJ_15 /* SwiftyAdsRewarded.swift */,
+			);
+			path = Internal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		B4C1B125204C298500452094 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4C1B12D204C298500452094 /* SwiftyAds.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6AAD6A1C240C1CBE001F4A7D /* SwiftyAdsTests */ = {
+		"SwiftyAds::SwiftPMPackageDescription" /* SwiftyAdsPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AAD6A27240C1CBE001F4A7D /* Build configuration list for PBXNativeTarget "SwiftyAdsTests" */;
+			buildConfigurationList = OBJ_49 /* Build configuration list for PBXNativeTarget "SwiftyAdsPackageDescription" */;
 			buildPhases = (
-				6AAD6A19240C1CBE001F4A7D /* Sources */,
-				6AAD6A1A240C1CBE001F4A7D /* Frameworks */,
-				6AAD6A1B240C1CBE001F4A7D /* Resources */,
+				OBJ_52 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AAD6A24240C1CBE001F4A7D /* PBXTargetDependency */,
 			);
-			name = SwiftyAdsTests;
-			productName = SwiftyAdsTests;
-			productReference = 6AAD6A1D240C1CBE001F4A7D /* SwiftyAdsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = SwiftyAdsPackageDescription;
+			productName = SwiftyAdsPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
-		B4C1B127204C298500452094 /* SwiftyAds */ = {
+		"SwiftyAds::SwiftyAds" /* SwiftyAds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4C1B130204C298500452094 /* Build configuration list for PBXNativeTarget "SwiftyAds" */;
+			buildConfigurationList = OBJ_31 /* Build configuration list for PBXNativeTarget "SwiftyAds" */;
 			buildPhases = (
-				B4C1B123204C298500452094 /* Sources */,
-				B4C1B124204C298500452094 /* Frameworks */,
-				B4C1B125204C298500452094 /* Headers */,
-				B4C1B126204C298500452094 /* Resources */,
+				OBJ_34 /* Sources */,
+				OBJ_47 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftyAds;
-			productName = SwiftyAd;
-			productReference = B4C1B128204C298500452094 /* SwiftyAds.framework */;
+			productName = SwiftyAds;
+			productReference = "SwiftyAds::SwiftyAds::Product" /* SwiftyAds.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4C1B11F204C298500452094 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Dominik;
-				TargetAttributes = {
-					6AAD6A1C240C1CBE001F4A7D = {
-						CreatedOnToolsVersion = 11.3.1;
-						ProvisioningStyle = Automatic;
-					};
-					B4C1B127204C298500452094 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = B4C1B122204C298500452094 /* Build configuration list for PBXProject "SwiftyAds" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftyAds" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
-				de,
-				es,
-				fr,
 			);
-			mainGroup = B4C1B11E204C298500452094;
-			productRefGroup = B4C1B129204C298500452094 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4C1B127204C298500452094 /* SwiftyAds */,
-				6AAD6A1C240C1CBE001F4A7D /* SwiftyAdsTests */,
+				"SwiftyAds::SwiftyAds" /* SwiftyAds */,
+				"SwiftyAds::SwiftPMPackageDescription" /* SwiftyAdsPackageDescription */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		6AAD6A1B240C1CBE001F4A7D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4C1B126204C298500452094 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6AAD6A19240C1CBE001F4A7D /* Sources */ = {
+		OBJ_34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+				OBJ_35 /* SwiftyAdsBanner.swift in Sources */,
+				OBJ_36 /* SwiftyAdsConfiguration.swift in Sources */,
+				OBJ_37 /* SwiftyAdsConsentManager.swift in Sources */,
+				OBJ_38 /* SwiftyAdsInterstitial.swift in Sources */,
+				OBJ_39 /* SwiftyAdsIntervalTracker.swift in Sources */,
+				OBJ_40 /* SwiftyAdsRequestBuilder.swift in Sources */,
+				OBJ_41 /* SwiftyAdsRewarded.swift in Sources */,
+				OBJ_42 /* SwiftyAds.swift in Sources */,
+				OBJ_43 /* SwiftyAdsConsentStatus.swift in Sources */,
+				OBJ_44 /* SwiftyAdsConsentStyle.swift in Sources */,
+				OBJ_45 /* SwiftyAdsMode.swift in Sources */,
+				OBJ_46 /* SwiftyAdsType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4C1B123204C298500452094 /* Sources */ = {
+		OBJ_52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				6AAD6A16240BEC98001F4A7D /* SwiftyAdsInterstitial.swift in Sources */,
-				6AAD6A18240BEC98001F4A7D /* SwiftyAdsConfiguration.swift in Sources */,
-				6AAD6A15240BEC98001F4A7D /* SwiftyAdsIntervalTracker.swift in Sources */,
-				6AAD6A17240BEC98001F4A7D /* SwiftyAdsBanner.swift in Sources */,
-				6AAD6A0A240BEC77001F4A7D /* SwiftyAdsConsentStyle.swift in Sources */,
-				6AAD6A13240BEC98001F4A7D /* SwiftyAdsRequestBuilder.swift in Sources */,
-				6AAD6A07240BEC77001F4A7D /* SwiftyAdsConsentStatus.swift in Sources */,
-				6AAD6A14240BEC98001F4A7D /* SwiftyAdsConsentManager.swift in Sources */,
-				6AE482F42294B7660063B22F /* SwiftyAds.swift in Sources */,
-				6AAD6A08240BEC77001F4A7D /* SwiftyAdsType.swift in Sources */,
-				6AAD6A12240BEC98001F4A7D /* SwiftyAdsRewarded.swift in Sources */,
-				6AAD6A09240BEC77001F4A7D /* SwiftyAdsMode.swift in Sources */,
+				OBJ_53 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6AAD6A24240C1CBE001F4A7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B4C1B127204C298500452094 /* SwiftyAds */;
-			targetProxy = 6AAD6A23240C1CBE001F4A7D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		6AAD6A25240C1CBE001F4A7D /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DK88YZ475Z;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominik.SwiftyAdsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6AAD6A26240C1CBE001F4A7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DK88YZ475Z;
-				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominik.SwiftyAdsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B4C1B12E204C298500452094 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		B4C1B12F204C298500452094 /* Release */ = {
+		OBJ_32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyAds.xcodeproj/SwiftyAds_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyAds;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				TARGET_NAME = SwiftyAds;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyAds.xcodeproj/SwiftyAds_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyAds;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftyAds;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		B4C1B131204C298500452094 /* Debug */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1485;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DK88YZ475Z;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyAds/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 11.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftyAds;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B4C1B132204C298500452094 /* Release */ = {
+		OBJ_51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1485;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = DK88YZ475Z;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftyAds/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 11.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftyAds;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.3.0";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AAD6A27240C1CBE001F4A7D /* Build configuration list for PBXNativeTarget "SwiftyAdsTests" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "SwiftyAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AAD6A25240C1CBE001F4A7D /* Debug */,
-				6AAD6A26240C1CBE001F4A7D /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4C1B122204C298500452094 /* Build configuration list for PBXProject "SwiftyAds" */ = {
+		OBJ_31 /* Build configuration list for PBXNativeTarget "SwiftyAds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4C1B12E204C298500452094 /* Debug */,
-				B4C1B12F204C298500452094 /* Release */,
+				OBJ_32 /* Debug */,
+				OBJ_33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4C1B130204C298500452094 /* Build configuration list for PBXNativeTarget "SwiftyAds" */ = {
+		OBJ_49 /* Build configuration list for PBXNativeTarget "SwiftyAdsPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4C1B131204C298500452094 /* Debug */,
-				B4C1B132204C298500452094 /* Release */,
+				OBJ_50 /* Debug */,
+				OBJ_51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4C1B11F204C298500452094 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
-   version = "1.7">
+   LastUpgradeVersion = "9999"
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4C1B127204C298500452094"
+               BlueprintIdentifier = "SwiftyAds::SwiftyAds"
                BuildableName = "SwiftyAds.framework"
                BlueprintName = "SwiftyAds"
                ReferencedContainer = "container:SwiftyAds.xcodeproj">
@@ -27,23 +27,7 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <TestPlans>
-         <TestPlanReference
-            reference = "container:Tests/Test Plans/UnitTests.xctestplan"
-            default = "YES">
-         </TestPlanReference>
-      </TestPlans>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6AAD6A1C240C1CBE001F4A7D"
-               BuildableName = "SwiftyAdsTests.xctest"
-               BlueprintName = "SwiftyAdsTests"
-               ReferencedContainer = "container:SwiftyAds.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -63,15 +47,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4C1B127204C298500452094"
-            BuildableName = "SwiftyAds.framework"
-            BlueprintName = "SwiftyAds"
-            ReferencedContainer = "container:SwiftyAds.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
